@@ -1,0 +1,27 @@
+{
+  "name": "my-typescript-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tharindusathis",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node-dev src/index.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.16",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}
